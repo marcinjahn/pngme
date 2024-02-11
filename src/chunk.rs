@@ -5,7 +5,7 @@ use crate::{Error, Result};
 
 
 #[derive(Debug)]
-struct Chunk{
+pub struct Chunk{
     chunk_type: ChunkType,
     data: Vec<u8>,
     crc: u32
